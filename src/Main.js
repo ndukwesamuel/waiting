@@ -38,19 +38,20 @@ const Main = () => {
           <img className="w-[120px]" src={Android} alt=""></img>
         </button>
       </div> */}
-      <div className=" w-300px text">
-        <form>
+      <div className=" w-300px flex text-center justify-center content-center">
+        <form className=" mt-2">
           <h2>Count me In!</h2>
           <div className=" relative">
-            <label className=" text-xs" for="">
+            <label className=" text-xs font-semibold" for="">
               Get the early access, news & updates.
             </label>
             <input
-              className=" w-[250px] block h-8 border-none outline-none bg-[#ffffff] text-[#000000] text-center text-xs rounded-full"
+              className=" w-[250px] block h-8 mt-1 border-none outline-none bg-[#ffffff] text-[#000000] text-center cursor-pointer text-xs rounded-full focus:outline-[2px] focus:outline-[#6dad04] "
               placeholder="Enter your email here*"
               type="email"
               required
             ></input>
+            <button className=" text-sm bg-transparent border-2 border-[#6dad04] rounded-full px-" type="">Sign Me Up!</button>
           </div>
         </form>
       </div>
