@@ -40,14 +40,14 @@ const Main = () => {
       </div> */}
       <div>
         <h2>Count Me In!</h2>
-        <form clas>
+        <form>
+          <label for="email">
+            Get the early access, news $ updates.
+          </label>
         </form>
       </div>
     </div>
   );
-};
-
-export default Main;
 };
 
 export default Main;
