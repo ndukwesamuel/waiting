@@ -2,56 +2,46 @@ import React from 'react';
 
 const Main = () => {
   return (
-    <div className=" text-center mt-[80px] text-white">
-      <h1 className=" text-6xl -tracking-wider font-Raleway font-extrabold text-[#2c3c13] uppercase">
-        Become A <br></br>
-        Group{" "}
-        <span className=" ml-2 text-[#6dad04] tracking-widest">Leader</span>
-      </h1>
-      <p className=" mt-4 text-[#e6e9ed] font-medium text-lg">
-        Earn up to 1,000,000 Naira per annum as a group leader.
-      </p>
-      <button
-        className="mt-2 transition-all bg-[#6dad04] px-4 py-2 font-semibold rounded-md hover:border-2 border-[#6dad04] hover:bg-transparent"
-        type="SignUp"
-      >
-        Create your Group
-        <i class="fa-solid fa-user-group ml-1"></i>
-      </button>
-      <p className="mt-4 text-center text-[#e6e9ed] font-medium text-lg">
-        Get groceries and foodstuff that are the most affordable <br></br> on
-        the continent with zero stress.
-      </p>
-      <button
-        className="mt-2 transition-all bg-[#6dad04] px-4 py-2 font-semibold rounded-md hover:border-2 border-[#6dad04] hover:bg-transparent"
+    <div className="mt-[80px] text-white px-[90px] max-sm:px-[0px] max-md:px-[0px]">
+      <a className="cursor-pointer" href="/">
+        <h1 className="font-extrabold text-white text-center text-5xl max-sm:text-3xl max-md:text-4xl ">
+          WE
+          <span className="font-extrabold text-[#6dad04] border-2 border-[#6dad04] px-1 ml-1">
+            BUY
+          </span> is launching soon...
+        </h1>
+      </a>
+      <p className="font-semibold text-lg max-sm:text-base max-md:text-lg text-center mt-6 max-sm:text-left max-sm:mt-3 ">Join the revolution of buying in bulk! Our platform makes it <span className="text-[#6dad04] border-2 border-[#6dad04] p-1 text-2xl max-sm:text-lg font-extrabold hover:border-none hover:underline hover:decoration-wavy hover:decoration-[#6dad04] hover:decoration-2 transition-all">easy and affordable</span> for groups of people. Don't miss out on the chance to save money on your purchases.
+      <br className="hidden max-sm:block max-md:block"></br> 
+       Join our waitlist now to be the first to try it out. Whether you're a community organization or a group of friends, we've got you covered! </p>
+      <div className="flex content-center justify-center mt-4">
+        <button
+        className="mt-2 transition-all bg-[#6dad04] px-8 py-2 max-sm:px-4 font-semibold rounded-md hover:border-2 border-[#6dad04] hover:bg-transparent max-sm:text-sm max-md:text-base"
         type="SignUp"
       >
         Join a Group
-        <i class="fa-solid fa-user-group ml-1"></i>
+        <i className="ml-1 fa-solid fa-user-group"></i>
       </button>
-      {/* <p className=" mt-1">Available soon on</p>
-      <div className="flex flex-row content-center justify-center gap-4 -mt-2">
-        <button type="">
-          <img className="w-[95px]" src={Apple} alt=""></img>
-        </button>
-        <button type="">
-          <img className="w-[120px]" src={Android} alt=""></img>
-        </button>
-      </div> */}
-      <div className=" w-300px flex text-center justify-center content-center">
-        <form className=" mt-2">
-          <h2>Count me In!</h2>
-          <div className=" relative">
-            <label className=" text-xs font-semibold" for="">
+      </div>
+      <div className="flex content-center justify-center text-center w-300px">
+        <form className="mt-4">
+          <h2 className="text-lg">Count me In!</h2>
+          <div className="relative ">
+            <label className="text-base max-sm:text-xs font-semibold">
               Get the early access, news & updates.
             </label>
             <input
-              className=" w-[250px] block h-8 mt-1 border-none outline-none bg-[#ffffff] text-[#000000] text-center cursor-pointer text-xs rounded-full focus:outline-[2px] focus:outline-[#6dad04] "
+              className="w-[300px] max-sm:w-[250px] block h-9 mt-1 border-none outline-none bg-[#ffffff] text-[#000000] text-center cursor-pointer text-sm rounded-full focus:outline-[2px] focus:outline-[#6dad04] "
               placeholder="Enter your email here*"
               type="email"
               required
             ></input>
-            <button className=" text-sm bg-transparent border-2 border-[#6dad04] rounded-full px-" type="">Sign Me Up!</button>
+            <button
+              className="mt-3 text-sm font-semibold bg-transparent border-2 border-[#6dad04] rounded-full px-6 max-sm:px-4 py-2 hover:bg-[#6dad04] transition-all"
+              type=""
+            >
+              Sign Me Up!
+            </button>
           </div>
         </form>
       </div>
