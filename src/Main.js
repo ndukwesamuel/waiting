@@ -49,7 +49,7 @@ const Main = () => {
       {isOpen && <Modal setIsOpen={setIsOpen} isOpen={isOpen} />}
       <div className="mt-[80px] text-white px-[90px] max-sm:px-[0px] max-md:px-[0px]">
         <a className="cursor-pointer" href="/">
-          {labg === "fn" ? (
+          {lang === "fn" ? (
             <h1 className="font-extrabold text-white text-center text-5xl max-sm:text-3xl max-md:text-4xl ">
               WE
               <span className="font-extrabold text-[#6dad04] border-2 border-[#6dad04] px-1 ml-1">
